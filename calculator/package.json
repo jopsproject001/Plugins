@@ -1,0 +1,15 @@
+{
+  "name": "@jops-pos/calculator-plugin",
+  "version": "1.0.0",
+  "type": "module",
+  "module": "dist/index.js",
+  "exports": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "keywords": [
+    "personal-os-plugin",
+    "calculator"
+  ]
+}

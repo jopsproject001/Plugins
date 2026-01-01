@@ -1,0 +1,20 @@
+{
+  "name": "@jops-pos/test-package",
+  "version": "1.0.1",
+  "type": "module",
+  "module": "dist/index.js",
+  "exports": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "personal-os-plugin"
+  ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@jops-pos/frontend-todo-ui": "file:../Todo"
+  }
+}
